@@ -1,0 +1,6 @@
+{
+	"resources": "./color/resources/",
+	"UIColor+Washing": "../../Washing/Washing/Color",
+	"ColorJsonified" : "../../Washing/Washing/Color",
+	"WSElementColors+Color"	: "../../Washing/Washing/Color"
+}

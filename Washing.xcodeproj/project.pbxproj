@@ -3,10 +3,21 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4B7FCD261D850842843A7240 /* Pods_Washing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6278AE141177FA760FDA72E3 /* Pods_Washing.framework */; };
+		8ABA24CD52A5C748E6499BE1 /* Pods_WashingTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AA9A272608937C938539914C /* Pods_WashingTests.framework */; };
+		B01DD36A256E13200058E652 /* UXKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B01DD369256E13200058E652 /* UXKit.framework */; };
+		B01DD36C256E13200058E652 /* WSComponent.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B01DD36B256E13200058E652 /* WSComponent.framework */; };
+		B01DD36F256E135C0058E652 /* UIColor+Washing.m in Sources */ = {isa = PBXBuildFile; fileRef = B01DD36E256E135C0058E652 /* UIColor+Washing.m */; };
+		B066C42B256B78D1004FE92A /* WSBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B066C42A256B78D1004FE92A /* WSBaseViewController.m */; };
+		B074F7F92577CF44006DF8D7 /* WSColorPalettes.m in Sources */ = {isa = PBXBuildFile; fileRef = B074F7F82577CF44006DF8D7 /* WSColorPalettes.m */; };
+		B074F7FD2577D0B3006DF8D7 /* NSDictionary+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = B074F7FC2577D0B3006DF8D7 /* NSDictionary+Extension.m */; };
+		B074F8002577D317006DF8D7 /* WSElementColors.m in Sources */ = {isa = PBXBuildFile; fileRef = B074F7FF2577D317006DF8D7 /* WSElementColors.m */; };
+		B074F8062577D46B006DF8D7 /* WSElementColors+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = B074F8052577D46B006DF8D7 /* WSElementColors+Color.m */; };
+		B074F80A2577DC35006DF8D7 /* ColorJsonified.m in Sources */ = {isa = PBXBuildFile; fileRef = B074F8092577DC35006DF8D7 /* ColorJsonified.m */; };
 		B0A3D292256B58D70018D151 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A3D291256B58D70018D151 /* AppDelegate.m */; };
 		B0A3D295256B58D70018D151 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A3D294256B58D70018D151 /* SceneDelegate.m */; };
 		B0A3D298256B58D70018D151 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A3D297256B58D70018D151 /* ViewController.m */; };
@@ -16,6 +27,9 @@
 		B0A3D2A3256B58DF0018D151 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A3D2A2256B58DF0018D151 /* main.m */; };
 		B0A3D2AD256B58DF0018D151 /* WashingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A3D2AC256B58DF0018D151 /* WashingTests.m */; };
 		B0A3D2B8256B58DF0018D151 /* WashingUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B0A3D2B7256B58DF0018D151 /* WashingUITests.m */; };
+		B0BC8122256B5E2100A81CF5 /* WSWindowManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BC8121256B5E2100A81CF5 /* WSWindowManager.m */; };
+		B0BC8125256B618B00A81CF5 /* WSWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = B0BC8124256B618B00A81CF5 /* WSWindow.m */; };
+		C03CC80FBD4DCB63E24A47A8 /* Pods_Washing_WashingUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C4B04B4CDC142D41C2AD655 /* Pods_Washing_WashingUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +50,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0ACBA56FC0560A69A942BE47 /* Pods-Washing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Washing.debug.xcconfig"; path = "Target Support Files/Pods-Washing/Pods-Washing.debug.xcconfig"; sourceTree = "<group>"; };
+		3F1250CC03AE120E885A207A /* Pods-Washing-WashingUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Washing-WashingUITests.debug.xcconfig"; path = "Target Support Files/Pods-Washing-WashingUITests/Pods-Washing-WashingUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		55E00271AEB395BF0A00AAE3 /* Pods-Washing-WashingUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Washing-WashingUITests.release.xcconfig"; path = "Target Support Files/Pods-Washing-WashingUITests/Pods-Washing-WashingUITests.release.xcconfig"; sourceTree = "<group>"; };
+		5C4B04B4CDC142D41C2AD655 /* Pods_Washing_WashingUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Washing_WashingUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6278AE141177FA760FDA72E3 /* Pods_Washing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Washing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		762BA68AF8F4B0D3D7E05FD8 /* Pods-WashingTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WashingTests.release.xcconfig"; path = "Target Support Files/Pods-WashingTests/Pods-WashingTests.release.xcconfig"; sourceTree = "<group>"; };
+		8798AC09CA272098CBE10AC8 /* Pods-Washing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Washing.release.xcconfig"; path = "Target Support Files/Pods-Washing/Pods-Washing.release.xcconfig"; sourceTree = "<group>"; };
+		891A20ED8396BF3FEFAC2E08 /* Pods-WashingTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WashingTests.debug.xcconfig"; path = "Target Support Files/Pods-WashingTests/Pods-WashingTests.debug.xcconfig"; sourceTree = "<group>"; };
+		AA9A272608937C938539914C /* Pods_WashingTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WashingTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B01DD369256E13200058E652 /* UXKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UXKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B01DD36B256E13200058E652 /* WSComponent.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = WSComponent.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B01DD36D256E135C0058E652 /* UIColor+Washing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIColor+Washing.h"; sourceTree = "<group>"; };
+		B01DD36E256E135C0058E652 /* UIColor+Washing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Washing.m"; sourceTree = "<group>"; };
+		B066C429256B78D1004FE92A /* WSBaseViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSBaseViewController.h; sourceTree = "<group>"; };
+		B066C42A256B78D1004FE92A /* WSBaseViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSBaseViewController.m; sourceTree = "<group>"; };
+		B074F7F72577CF44006DF8D7 /* WSColorPalettes.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSColorPalettes.h; sourceTree = "<group>"; };
+		B074F7F82577CF44006DF8D7 /* WSColorPalettes.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSColorPalettes.m; sourceTree = "<group>"; };
+		B074F7FB2577D0B3006DF8D7 /* NSDictionary+Extension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+Extension.h"; sourceTree = "<group>"; };
+		B074F7FC2577D0B3006DF8D7 /* NSDictionary+Extension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+Extension.m"; sourceTree = "<group>"; };
+		B074F7FE2577D317006DF8D7 /* WSElementColors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSElementColors.h; sourceTree = "<group>"; };
+		B074F7FF2577D317006DF8D7 /* WSElementColors.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSElementColors.m; sourceTree = "<group>"; };
+		B074F8012577D423006DF8D7 /* WSElementColors+Private.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WSElementColors+Private.h"; sourceTree = "<group>"; };
+		B074F8042577D46B006DF8D7 /* WSElementColors+Color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WSElementColors+Color.h"; sourceTree = "<group>"; };
+		B074F8052577D46B006DF8D7 /* WSElementColors+Color.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "WSElementColors+Color.m"; sourceTree = "<group>"; };
+		B074F8082577DC35006DF8D7 /* ColorJsonified.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColorJsonified.h; sourceTree = "<group>"; };
+		B074F8092577DC35006DF8D7 /* ColorJsonified.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColorJsonified.m; sourceTree = "<group>"; };
 		B0A3D28D256B58D70018D151 /* Washing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Washing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0A3D290256B58D70018D151 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B0A3D291256B58D70018D151 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -54,6 +94,11 @@
 		B0A3D2B3256B58DF0018D151 /* WashingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WashingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0A3D2B7256B58DF0018D151 /* WashingUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WashingUITests.m; sourceTree = "<group>"; };
 		B0A3D2B9256B58DF0018D151 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0BC8120256B5E2100A81CF5 /* WSWindowManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSWindowManager.h; sourceTree = "<group>"; };
+		B0BC8121256B5E2100A81CF5 /* WSWindowManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSWindowManager.m; sourceTree = "<group>"; };
+		B0BC8123256B618B00A81CF5 /* WSWindow.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSWindow.h; sourceTree = "<group>"; };
+		B0BC8124256B618B00A81CF5 /* WSWindow.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WSWindow.m; sourceTree = "<group>"; };
+		B0BC8127256B61AA00A81CF5 /* WSMacros.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WSMacros.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +106,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B01DD36A256E13200058E652 /* UXKit.framework in Frameworks */,
+				B01DD36C256E13200058E652 /* WSComponent.framework in Frameworks */,
+				4B7FCD261D850842843A7240 /* Pods_Washing.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,6 +116,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8ABA24CD52A5C748E6499BE1 /* Pods_WashingTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,12 +124,56 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C03CC80FBD4DCB63E24A47A8 /* Pods_Washing_WashingUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B01DD368256E13030058E652 /* Color */ = {
+			isa = PBXGroup;
+			children = (
+				B074F8082577DC35006DF8D7 /* ColorJsonified.h */,
+				B074F8092577DC35006DF8D7 /* ColorJsonified.m */,
+				B01DD36D256E135C0058E652 /* UIColor+Washing.h */,
+				B01DD36E256E135C0058E652 /* UIColor+Washing.m */,
+				B074F7F72577CF44006DF8D7 /* WSColorPalettes.h */,
+				B074F7F82577CF44006DF8D7 /* WSColorPalettes.m */,
+				B074F7FE2577D317006DF8D7 /* WSElementColors.h */,
+				B074F8012577D423006DF8D7 /* WSElementColors+Private.h */,
+				B074F7FF2577D317006DF8D7 /* WSElementColors.m */,
+				B074F8042577D46B006DF8D7 /* WSElementColors+Color.h */,
+				B074F8052577D46B006DF8D7 /* WSElementColors+Color.m */,
+			);
+			path = Color;
+			sourceTree = "<group>";
+		};
+		B066C423256B75FB004FE92A /* Bussiness */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Bussiness;
+			sourceTree = "<group>";
+		};
+		B066C428256B78C0004FE92A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B066C429256B78D1004FE92A /* WSBaseViewController.h */,
+				B066C42A256B78D1004FE92A /* WSBaseViewController.m */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		B074F7FA2577D0A2006DF8D7 /* ExtensionUtils */ = {
+			isa = PBXGroup;
+			children = (
+				B074F7FB2577D0B3006DF8D7 /* NSDictionary+Extension.h */,
+				B074F7FC2577D0B3006DF8D7 /* NSDictionary+Extension.m */,
+			);
+			path = ExtensionUtils;
+			sourceTree = "<group>";
+		};
 		B0A3D284256B58D70018D151 = {
 			isa = PBXGroup;
 			children = (
@@ -88,6 +181,8 @@
 				B0A3D2AB256B58DF0018D151 /* WashingTests */,
 				B0A3D2B6256B58DF0018D151 /* WashingUITests */,
 				B0A3D28E256B58D70018D151 /* Products */,
+				F1662184A173D1B91C7D8204 /* Pods */,
+				EDCA6108517C6D9717782E90 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,6 +199,10 @@
 		B0A3D28F256B58D70018D151 /* Washing */ = {
 			isa = PBXGroup;
 			children = (
+				B074F7FA2577D0A2006DF8D7 /* ExtensionUtils */,
+				B01DD368256E13030058E652 /* Color */,
+				B066C423256B75FB004FE92A /* Bussiness */,
+				B0BC811D256B5DBF00A81CF5 /* Core */,
 				B0A3D290256B58D70018D151 /* AppDelegate.h */,
 				B0A3D291256B58D70018D151 /* AppDelegate.m */,
 				B0A3D293256B58D70018D151 /* SceneDelegate.h */,
@@ -137,6 +236,68 @@
 			path = WashingUITests;
 			sourceTree = "<group>";
 		};
+		B0BC811D256B5DBF00A81CF5 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				B0BC8126256B619A00A81CF5 /* Macros */,
+				B0BC811E256B5DD200A81CF5 /* UI */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		B0BC811E256B5DD200A81CF5 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				B066C428256B78C0004FE92A /* ViewController */,
+				B0BC811F256B5DDC00A81CF5 /* Windows */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		B0BC811F256B5DDC00A81CF5 /* Windows */ = {
+			isa = PBXGroup;
+			children = (
+				B0BC8120256B5E2100A81CF5 /* WSWindowManager.h */,
+				B0BC8121256B5E2100A81CF5 /* WSWindowManager.m */,
+				B0BC8123256B618B00A81CF5 /* WSWindow.h */,
+				B0BC8124256B618B00A81CF5 /* WSWindow.m */,
+			);
+			path = Windows;
+			sourceTree = "<group>";
+		};
+		B0BC8126256B619A00A81CF5 /* Macros */ = {
+			isa = PBXGroup;
+			children = (
+				B0BC8127256B61AA00A81CF5 /* WSMacros.h */,
+			);
+			path = Macros;
+			sourceTree = "<group>";
+		};
+		EDCA6108517C6D9717782E90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B01DD369256E13200058E652 /* UXKit.framework */,
+				B01DD36B256E13200058E652 /* WSComponent.framework */,
+				6278AE141177FA760FDA72E3 /* Pods_Washing.framework */,
+				5C4B04B4CDC142D41C2AD655 /* Pods_Washing_WashingUITests.framework */,
+				AA9A272608937C938539914C /* Pods_WashingTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F1662184A173D1B91C7D8204 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0ACBA56FC0560A69A942BE47 /* Pods-Washing.debug.xcconfig */,
+				8798AC09CA272098CBE10AC8 /* Pods-Washing.release.xcconfig */,
+				3F1250CC03AE120E885A207A /* Pods-Washing-WashingUITests.debug.xcconfig */,
+				55E00271AEB395BF0A00AAE3 /* Pods-Washing-WashingUITests.release.xcconfig */,
+				891A20ED8396BF3FEFAC2E08 /* Pods-WashingTests.debug.xcconfig */,
+				762BA68AF8F4B0D3D7E05FD8 /* Pods-WashingTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -144,9 +305,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0A3D2BC256B58DF0018D151 /* Build configuration list for PBXNativeTarget "Washing" */;
 			buildPhases = (
+				31034FF6FFD23D5FAD7B550F /* [CP] Check Pods Manifest.lock */,
 				B0A3D289256B58D70018D151 /* Sources */,
 				B0A3D28A256B58D70018D151 /* Frameworks */,
 				B0A3D28B256B58D70018D151 /* Resources */,
+				0F4989B636154550BDE1FAF7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -161,6 +324,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0A3D2BF256B58DF0018D151 /* Build configuration list for PBXNativeTarget "WashingTests" */;
 			buildPhases = (
+				313B5DE4CD3A2F354B984DDC /* [CP] Check Pods Manifest.lock */,
 				B0A3D2A4256B58DF0018D151 /* Sources */,
 				B0A3D2A5256B58DF0018D151 /* Frameworks */,
 				B0A3D2A6256B58DF0018D151 /* Resources */,
@@ -179,9 +343,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0A3D2C2256B58DF0018D151 /* Build configuration list for PBXNativeTarget "WashingUITests" */;
 			buildPhases = (
+				3860B1469AF8C88C114A9C14 /* [CP] Check Pods Manifest.lock */,
 				B0A3D2AF256B58DF0018D151 /* Sources */,
 				B0A3D2B0256B58DF0018D151 /* Frameworks */,
 				B0A3D2B1256B58DF0018D151 /* Resources */,
+				1ECEA4250E70410EA19B923B /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -262,15 +428,127 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0F4989B636154550BDE1FAF7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Washing/Pods-Washing-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Washing/Pods-Washing-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Washing/Pods-Washing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1ECEA4250E70410EA19B923B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Washing-WashingUITests/Pods-Washing-WashingUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Washing-WashingUITests/Pods-Washing-WashingUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Washing-WashingUITests/Pods-Washing-WashingUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		31034FF6FFD23D5FAD7B550F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Washing-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		313B5DE4CD3A2F354B984DDC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WashingTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3860B1469AF8C88C114A9C14 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Washing-WashingUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B0A3D289256B58D70018D151 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B074F7FD2577D0B3006DF8D7 /* NSDictionary+Extension.m in Sources */,
 				B0A3D298256B58D70018D151 /* ViewController.m in Sources */,
 				B0A3D292256B58D70018D151 /* AppDelegate.m in Sources */,
+				B066C42B256B78D1004FE92A /* WSBaseViewController.m in Sources */,
+				B0BC8122256B5E2100A81CF5 /* WSWindowManager.m in Sources */,
+				B074F8002577D317006DF8D7 /* WSElementColors.m in Sources */,
+				B074F8062577D46B006DF8D7 /* WSElementColors+Color.m in Sources */,
 				B0A3D2A3256B58DF0018D151 /* main.m in Sources */,
+				B01DD36F256E135C0058E652 /* UIColor+Washing.m in Sources */,
+				B074F7F92577CF44006DF8D7 /* WSColorPalettes.m in Sources */,
 				B0A3D295256B58D70018D151 /* SceneDelegate.m in Sources */,
+				B074F80A2577DC35006DF8D7 /* ColorJsonified.m in Sources */,
+				B0BC8125256B618B00A81CF5 /* WSWindow.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,11 +715,13 @@
 		};
 		B0A3D2BD256B58DF0018D151 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0ACBA56FC0560A69A942BE47 /* Pods-Washing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4GSVT8QAAY;
 				INFOPLIST_FILE = Washing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -454,11 +734,13 @@
 		};
 		B0A3D2BE256B58DF0018D151 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8798AC09CA272098CBE10AC8 /* Pods-Washing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4GSVT8QAAY;
 				INFOPLIST_FILE = Washing/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -471,6 +753,7 @@
 		};
 		B0A3D2C0256B58DF0018D151 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 891A20ED8396BF3FEFAC2E08 /* Pods-WashingTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -491,6 +774,7 @@
 		};
 		B0A3D2C1256B58DF0018D151 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 762BA68AF8F4B0D3D7E05FD8 /* Pods-WashingTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
@@ -511,6 +795,7 @@
 		};
 		B0A3D2C3256B58DF0018D151 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F1250CC03AE120E885A207A /* Pods-Washing-WashingUITests.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4GSVT8QAAY;
@@ -529,6 +814,7 @@
 		};
 		B0A3D2C4256B58DF0018D151 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 55E00271AEB395BF0A00AAE3 /* Pods-Washing-WashingUITests.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 4GSVT8QAAY;
